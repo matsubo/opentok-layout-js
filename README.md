@@ -30,7 +30,7 @@ var layout = initLayoutContainer(document.getElementById("layout"), {
     minRatio: 9/16,      // The widest ratio that will be used (default 16x9)
     fixedRatio: false,  // If this is true then the aspect ratio of the video is maintained and minRatio and maxRatio are ignored (default false)
     bigClass: "OT_big", // The class to add to elements that should be sized bigger
-    bigPercentage: 0.8  // The maximum percentage of space the big ones should take up
+    bigPercentage: 0.8,  // The maximum percentage of space the big ones should take up
     bigFixedRatio: false, // fixedRatio for the big ones
     bigMaxRatio: 3/2,     // The narrowest ratio to use for the big elements (default 2x3)
     bigMinRatio: 9/16,     // The widest ratio to use for the big elements (default 16x9)
